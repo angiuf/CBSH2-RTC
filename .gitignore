@@ -1,3 +1,17 @@
 .idea
 cmake-*
 bin
+*.pyc
+
+CMakeFiles/
+cmake*
+CMakeCache.txt
+Makefile
+
+test.csv
+paths.txt
+
+cbs
+
+results/
+
