@@ -451,24 +451,24 @@ def test_cbsh2_rtc():
         #     "n_tests": 200,
         #     "list_num_agents": [4, 8, 12, 16, 20, 22]
         # },
-        {
-            "map_name": "50_55_simple_warehouse",
-            "size": 50,
-            "n_tests": 20,
-            "list_num_agents": [64]
-        },
+        # {
+        #     "map_name": "50_55_simple_warehouse",
+        #     "size": 50,
+        #     "n_tests": 200,
+        #     "list_num_agents": [128]
+        # },
         # {
         #     "map_name": "50_55_long_shelves",
         #     "size": 50,
         #     "n_tests": 200,
-        #     "list_num_agents": [4, 8, 16, 32]
+        #     "list_num_agents": [64]
         # },
-        # {
-        #     "map_name": "50_55_open_space_warehouse_bottom",
-        #     "size": 50,
-        #     "n_tests": 200,
-        #     "list_num_agents": [4, 8, 16, 32, 64, 128]
-        # }
+        {
+            "map_name": "50_55_open_space_warehouse_bottom",
+            "size": 50,
+            "n_tests": 200,
+            "list_num_agents": [64, 128]
+        }
     ]
     
     # CSV header
